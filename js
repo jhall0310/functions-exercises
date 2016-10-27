@@ -26,4 +26,13 @@ function areaOfACircle(radius) {
 areaOfACircle(4);
 
 var result = areaOfACircle(2);
-console.log(result)
+console.log(result);
+
+function repeatPhrase(phrase, n) {
+  var length = n;
+  for(var i = 0; i < length; i++);
+
+  return phrase;
+}
+
+repeatPhrase("Hello", 5);
