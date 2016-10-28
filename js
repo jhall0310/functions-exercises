@@ -36,3 +36,20 @@ function repeatPhrase(phrase, n) {
 }
 
 repeatPhrase("Hello", 5);
+// pythagoreanTheorem
+function pythagorean(sideA, sideB){
+  return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+}
+
+console.log(pythagorean(4, 3));
+
+//divisible by 3
+function isXEvenlyDivisibleByY(x, y) {
+    var result = ( x % y === 0);
+      return result;
+  }
+
+  isXEvenlyDivisibleByY(99,3);
+
+var result = isXEvenlyDivisibleByY(99, 3);
+console.log(result);
